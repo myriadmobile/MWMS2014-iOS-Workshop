@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		358C9305191585AE004550AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358C9304191585AE004550AB /* Foundation.framework */; };
+		358C9307191585AE004550AB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358C9306191585AE004550AB /* CoreGraphics.framework */; };
+		358C9309191585AE004550AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358C9308191585AE004550AB /* UIKit.framework */; };
+		358C930F191585AE004550AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 358C930D191585AE004550AB /* InfoPlist.strings */; };
+		358C9311191585AE004550AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 358C9310191585AE004550AB /* main.m */; };
+		358C9315191585AE004550AB /* MWMSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 358C9314191585AE004550AB /* MWMSAppDelegate.m */; };
+		358C9318191585AE004550AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 358C9316191585AE004550AB /* Main.storyboard */; };
+		358C931B191585AE004550AB /* MWMSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 358C931A191585AE004550AB /* MWMSViewController.m */; };
+		358C931D191585AE004550AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 358C931C191585AE004550AB /* Images.xcassets */; };
+		358C9324191585AF004550AB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358C9323191585AF004550AB /* XCTest.framework */; };
+		358C9325191585AF004550AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358C9304191585AE004550AB /* Foundation.framework */; };
+		358C9326191585AF004550AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358C9308191585AE004550AB /* UIKit.framework */; };
+		358C93411915879F004550AB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358C933F1915879F004550AB /* CoreLocation.framework */; };
+		358C9345191589EC004550AB /* MWMSBeaconService.m in Sources */ = {isa = PBXBuildFile; fileRef = 358C9344191589EC004550AB /* MWMSBeaconService.m */; };
+		358C934819158A49004550AB /* MWMSRocketShipPart.m in Sources */ = {isa = PBXBuildFile; fileRef = 358C934719158A49004550AB /* MWMSRocketShipPart.m */; };
+		358C934D1916C0BE004550AB /* MWMSPartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 358C934C1916C0BE004550AB /* MWMSPartCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		358C9327191585AF004550AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 358C92F9191585AE004550AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 358C9300191585AE004550AB;
+			remoteInfo = "Beacon Promotions";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		358C9301191585AE004550AB /* Spaceship Repair Kit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spaceship Repair Kit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		358C9304191585AE004550AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		358C9306191585AE004550AB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		358C9308191585AE004550AB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		358C930C191585AE004550AB /* Spaceship Repair Kit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Spaceship Repair Kit-Info.plist"; sourceTree = "<group>"; };
+		358C930E191585AE004550AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		358C9310191585AE004550AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		358C9312191585AE004550AB /* Spaceship Repair Kit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Spaceship Repair Kit-Prefix.pch"; sourceTree = "<group>"; };
+		358C9313191585AE004550AB /* MWMSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWMSAppDelegate.h; sourceTree = "<group>"; };
+		358C9314191585AE004550AB /* MWMSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWMSAppDelegate.m; sourceTree = "<group>"; };
+		358C9317191585AE004550AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		358C9319191585AE004550AB /* MWMSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWMSViewController.h; sourceTree = "<group>"; };
+		358C931A191585AE004550AB /* MWMSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWMSViewController.m; sourceTree = "<group>"; };
+		358C931C191585AE004550AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		358C9322191585AF004550AB /* Spaceship Repair KitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Spaceship Repair KitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		358C9323191585AF004550AB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		358C933E1915879F004550AB /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		358C933F1915879F004550AB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		358C9343191589EC004550AB /* MWMSBeaconService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWMSBeaconService.h; sourceTree = "<group>"; };
+		358C9344191589EC004550AB /* MWMSBeaconService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWMSBeaconService.m; sourceTree = "<group>"; };
+		358C934619158A49004550AB /* MWMSRocketShipPart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWMSRocketShipPart.h; sourceTree = "<group>"; };
+		358C934719158A49004550AB /* MWMSRocketShipPart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWMSRocketShipPart.m; sourceTree = "<group>"; };
+		358C934B1916C0BE004550AB /* MWMSPartCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWMSPartCell.h; sourceTree = "<group>"; };
+		358C934C1916C0BE004550AB /* MWMSPartCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWMSPartCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		358C92FE191585AE004550AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358C93411915879F004550AB /* CoreLocation.framework in Frameworks */,
+				358C9307191585AE004550AB /* CoreGraphics.framework in Frameworks */,
+				358C9309191585AE004550AB /* UIKit.framework in Frameworks */,
+				358C9305191585AE004550AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		358C931F191585AF004550AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358C9324191585AF004550AB /* XCTest.framework in Frameworks */,
+				358C9326191585AF004550AB /* UIKit.framework in Frameworks */,
+				358C9325191585AF004550AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		358C92F8191585AE004550AB = {
+			isa = PBXGroup;
+			children = (
+				358C930A191585AE004550AB /* Spaceship Repair Kit */,
+				358C9303191585AE004550AB /* Frameworks */,
+				358C9302191585AE004550AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		358C9302191585AE004550AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				358C9301191585AE004550AB /* Spaceship Repair Kit.app */,
+				358C9322191585AF004550AB /* Spaceship Repair KitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		358C9303191585AE004550AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				358C933E1915879F004550AB /* CoreBluetooth.framework */,
+				358C933F1915879F004550AB /* CoreLocation.framework */,
+				358C9304191585AE004550AB /* Foundation.framework */,
+				358C9306191585AE004550AB /* CoreGraphics.framework */,
+				358C9308191585AE004550AB /* UIKit.framework */,
+				358C9323191585AF004550AB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		358C930A191585AE004550AB /* Spaceship Repair Kit */ = {
+			isa = PBXGroup;
+			children = (
+				358C9342191589C9004550AB /* Beacon Service */,
+				358C934619158A49004550AB /* MWMSRocketShipPart.h */,
+				358C934719158A49004550AB /* MWMSRocketShipPart.m */,
+				358C931C191585AE004550AB /* Images.xcassets */,
+				358C9316191585AE004550AB /* Main.storyboard */,
+				358C9313191585AE004550AB /* MWMSAppDelegate.h */,
+				358C9314191585AE004550AB /* MWMSAppDelegate.m */,
+				358C9319191585AE004550AB /* MWMSViewController.h */,
+				358C931A191585AE004550AB /* MWMSViewController.m */,
+				358C934B1916C0BE004550AB /* MWMSPartCell.h */,
+				358C934C1916C0BE004550AB /* MWMSPartCell.m */,
+				358C930B191585AE004550AB /* Supporting Files */,
+			);
+			path = "Spaceship Repair Kit";
+			sourceTree = "<group>";
+		};
+		358C930B191585AE004550AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				358C930C191585AE004550AB /* Spaceship Repair Kit-Info.plist */,
+				358C930D191585AE004550AB /* InfoPlist.strings */,
+				358C9310191585AE004550AB /* main.m */,
+				358C9312191585AE004550AB /* Spaceship Repair Kit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		358C9342191589C9004550AB /* Beacon Service */ = {
+			isa = PBXGroup;
+			children = (
+				358C9343191589EC004550AB /* MWMSBeaconService.h */,
+				358C9344191589EC004550AB /* MWMSBeaconService.m */,
+			);
+			name = "Beacon Service";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		358C9300191585AE004550AB /* Spaceship Repair Kit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 358C9333191585AF004550AB /* Build configuration list for PBXNativeTarget "Spaceship Repair Kit" */;
+			buildPhases = (
+				358C92FD191585AE004550AB /* Sources */,
+				358C92FE191585AE004550AB /* Frameworks */,
+				358C92FF191585AE004550AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Spaceship Repair Kit";
+			productName = "Beacon Promotions";
+			productReference = 358C9301191585AE004550AB /* Spaceship Repair Kit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		358C9321191585AF004550AB /* Spaceship Repair KitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 358C9336191585AF004550AB /* Build configuration list for PBXNativeTarget "Spaceship Repair KitTests" */;
+			buildPhases = (
+				358C931E191585AF004550AB /* Sources */,
+				358C931F191585AF004550AB /* Frameworks */,
+				358C9320191585AF004550AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				358C9328191585AF004550AB /* PBXTargetDependency */,
+			);
+			name = "Spaceship Repair KitTests";
+			productName = "Beacon PromotionsTests";
+			productReference = 358C9322191585AF004550AB /* Spaceship Repair KitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		358C92F9191585AE004550AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MWMS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Myriad Mobile";
+				TargetAttributes = {
+					358C9321191585AF004550AB = {
+						TestTargetID = 358C9300191585AE004550AB;
+					};
+				};
+			};
+			buildConfigurationList = 358C92FC191585AE004550AB /* Build configuration list for PBXProject "Spaceship Repair Kit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 358C92F8191585AE004550AB;
+			productRefGroup = 358C9302191585AE004550AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				358C9300191585AE004550AB /* Spaceship Repair Kit */,
+				358C9321191585AF004550AB /* Spaceship Repair KitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		358C92FF191585AE004550AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358C931D191585AE004550AB /* Images.xcassets in Resources */,
+				358C930F191585AE004550AB /* InfoPlist.strings in Resources */,
+				358C9318191585AE004550AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		358C9320191585AF004550AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		358C92FD191585AE004550AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358C9345191589EC004550AB /* MWMSBeaconService.m in Sources */,
+				358C931B191585AE004550AB /* MWMSViewController.m in Sources */,
+				358C934819158A49004550AB /* MWMSRocketShipPart.m in Sources */,
+				358C934D1916C0BE004550AB /* MWMSPartCell.m in Sources */,
+				358C9315191585AE004550AB /* MWMSAppDelegate.m in Sources */,
+				358C9311191585AE004550AB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		358C931E191585AF004550AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		358C9328191585AF004550AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 358C9300191585AE004550AB /* Spaceship Repair Kit */;
+			targetProxy = 358C9327191585AF004550AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		358C930D191585AE004550AB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				358C930E191585AE004550AB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		358C9316191585AE004550AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				358C9317191585AE004550AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		358C9331191585AF004550AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		358C9332191585AF004550AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		358C9334191585AF004550AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Spaceship Repair Kit/Spaceship Repair Kit-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Spaceship Repair Kit/Spaceship Repair Kit-Info.plist";
+				PRODUCT_NAME = "Spaceship Repair Kit";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		358C9335191585AF004550AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Spaceship Repair Kit/Spaceship Repair Kit-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Spaceship Repair Kit/Spaceship Repair Kit-Info.plist";
+				PRODUCT_NAME = "Spaceship Repair Kit";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		358C9337191585AF004550AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Beacon Promotions.app/Beacon Promotions";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Beacon Promotions/Beacon Promotions-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Beacon PromotionsTests/Beacon PromotionsTests-Info.plist";
+				PRODUCT_NAME = "Spaceship Repair KitTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		358C9338191585AF004550AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Beacon Promotions.app/Beacon Promotions";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Beacon Promotions/Beacon Promotions-Prefix.pch";
+				INFOPLIST_FILE = "Beacon PromotionsTests/Beacon PromotionsTests-Info.plist";
+				PRODUCT_NAME = "Spaceship Repair KitTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		358C92FC191585AE004550AB /* Build configuration list for PBXProject "Spaceship Repair Kit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				358C9331191585AF004550AB /* Debug */,
+				358C9332191585AF004550AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		358C9333191585AF004550AB /* Build configuration list for PBXNativeTarget "Spaceship Repair Kit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				358C9334191585AF004550AB /* Debug */,
+				358C9335191585AF004550AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		358C9336191585AF004550AB /* Build configuration list for PBXNativeTarget "Spaceship Repair KitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				358C9337191585AF004550AB /* Debug */,
+				358C9338191585AF004550AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 358C92F9191585AE004550AB /* Project object */;
+}
